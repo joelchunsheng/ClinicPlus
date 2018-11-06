@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link rel="icon" type="image/x-icon" href="images/cliniclogo.png" />
+    
+
+    <title>Clinic+</title>
+
+</head>
+<body>
+
+    <img id="background" src="images/mel.jpg"   />
+    <h1 id="heading">Clinic+</h1>
+
+
+    <button onclick="document.getElementById('id01').style.display='block'" id="loginbtn1">Sign In</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" id="form-login">
+
+
+
+            <div id="input">
+
+                <p>Login </p>
+
+
+                <label><b>Username</b></label>
+                <input id="txtEmail" type="text" placeholder="Email" required>
+
+                <br />
+
+                <label><b>Password</b></label>
+                <input id="password" type="password" placeholder="Password" required>
+
+                <br/>
+
+                <input id="login" type="button" value="login">
+
+            </div>
+
+
+
+
+        </form>
+    </div>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script src="java/login.js"></script>
+    <script>
+        log();
+    </script>
+
+
+
+
+</body>
+</html>

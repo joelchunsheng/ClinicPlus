@@ -1,0 +1,185 @@
+﻿html body {
+    height: 100%;
+    margin: 0;
+}
+
+
+#heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 6em;
+    text-align:center;
+    z-index:100;
+    top:0;
+    margin-top:-34%;
+}
+
+#background {
+    /*width: 800px;
+    position: absolute;
+    margin-top:50px;
+    margin-left:230px;*/
+    /* Full height */
+    width: 100%;
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+}
+
+#input label {
+        font-family: 'Lato', sans-serif;
+    }
+
+#input {
+
+    z-index: 50;
+}
+
+#input p{
+    margin-left: 45%;
+}
+
+#input p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#loginbtn1 {
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Set a style for final buttons */
+#login {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    font-family: 'Lato', sans-serif;
+    border-radius:200px;
+}
+
+#login:hover{
+    background-color:#202020;
+    color:whitesmoke;
+
+
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 100px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    height: 40%;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

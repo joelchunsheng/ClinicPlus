@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="icon" type="image/x-icon" href="images/cliniclogo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <title>Clinic+</title>
+</head>
+<body>
+    <header>
+        <section id="headerbg"></section>
+        <img id="headerimg" src="images/cliniclogo.png" />
+
+        <button onclick="window.location.href='login.html'" id="logout"><img src="images/logoutlogo.png" width="20" height="20" > Log Out</button>
+    </header>
+
+
+
+
+    <section id="welcome">
+        <section class="intro">
+
+            <img id="background" src="images/mountains.jpg" />
+
+        </section>
+
+        <h1>Welcome to clinic+</h1>
+
+        <section id="gscontainer">
+
+            <a id="gs" class="slide" href="#content">Get Started</a>
+
+        </section>
+    </section>
+
+
+
+    <section id="content">
+
+
+            <section id="docsection">
+                <p>
+                    Select doctor on duty :
+                    <select id="drSelect" onclick="SelectDr()">
+                        <option value="NoDoctor">Select Doctor</option>
+                        <option value="MrOng">Mr Ong</option>
+                        <option value="MrSwee">Mr Swee</option>
+                        <option value="MissLow">Miss Low</option>
+
+                    </select>
+                </p>
+
+                <p id="DrOutput"></p>
+            </section>
+
+        <section id="main">
+
+            <input id="nameinput" placeholder="Enter Name" required>
+            <input id="NRIC" placeholder="Enter NRIC" required>
+
+
+
+
+
+            <button id="enterbtn" onclick="savedata()">Enter</button>
+
+            <table >
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>NRIC</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+
+                <tbody id="tablebody"></tbody>
+            </table>
+        </section>
+
+        <section id="qc">
+            <p id="countout"></p>
+        </section>
+    </section>
+
+    <footer>
+        <p> Clinic+</p>
+        Developed by Joel & WeiJie
+    </footer>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBGZ6ASEt7g5T-tqLhN4EpwIrLm6RZijoQ",
+            authDomain: "clinicplus02.firebaseapp.com",
+            databaseURL: "https://clinicplus02.firebaseio.com",
+            projectId: "clinicplus02",
+            storageBucket: "clinicplus02.appspot.com",
+            messagingSenderId: "962858937377"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script src="java/home.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+Brief guide on what to do with the aia file:
+
+1.Go to http://appinventor.mit.edu/explore/
+2.Click on the orange Create apps! button at the top right hand corner
+3.Enter Gmail infomation
+4.At My Projects look for the Projects tab at the header
+5.Click on the tab and look for the "import project(.aia) from my computer"
+6.Choose the ClinicPlusFinal.aia and press ok
+7.The project may take some time to load
+8.To view the block codes there is a button labeled "Blocks" at the top right
+9.In order to run the app download "MIT AI2 Companion" on android
+10.Once you have downlaoded the app open it
+11.Once the app is open go back to the website and click on the Connect tab on the header
+12.Click on "AI Companion" from the drop down menu
+13.Enter the code or scan the QR code
+14.The application will reflect what is in the current screen of the website 
